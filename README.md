@@ -43,5 +43,5 @@ UIkit is open-sourced software licensed under the [MIT License](LICENSE).
 
 ## 🌌 Built by PHICORP
 
-Building frameworks for builders.
-Follow us on GitHub: [@phicorp](https://github.com/phicorp)
+Building frameworks for builders.  
+Follow us on GitHub: [@phicorp](https://github.com/phicorp)  
