@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# UIkit – Customizable React UI Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**An easy-to-use, highly customizable collection of React components built for fast development.**
 
-## Available Scripts
+UIkit is a React component library designed to streamline UI development. Built on top of Create React App (CRA), it offers a rich set of pre-built components that you can use and customize for your next project.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Why UIkit?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Customizable** – Built to be easily customizable with your own themes and styles.
+- **Pre-Built Components** – Includes a range of UI components, from buttons to modals, dropdowns, and form elements.
+- **Optimized for React** – Fully integrated with React for a seamless development experience.
+- **CRA-Powered** – Based on Create React App, which means zero configuration required to get started.
+- **Mobile-Friendly** – Fully responsive and optimized for mobile devices.
+- **Lightweight** – Built with performance in mind, ensuring a fast and smooth user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ Buttons, cards, modals, dropdowns, and more  
+- ✅ Customizable themes and styles with CSS Variables  
+- ✅ Fully responsive layout for all screen sizes  
+- ✅ Easy to integrate into any React project  
+- ✅ Component-based architecture for reusability  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React 16.8+
+- Node.js 14+
+- npm 6+
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📄 License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+UIkit is open-sourced software licensed under the [MIT License](LICENSE).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌌 Built by PHICORP
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Building frameworks for builders.
+Follow us on GitHub: [@phicorp](https://github.com/phicorp)
