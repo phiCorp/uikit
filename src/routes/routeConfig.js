@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import MainLayout from '../layouts/MainLayout';
 
-const Home = lazy(() => import('../pages/Home'));
-// const NotFoundPage = lazy(() => import('../pages/notFoundPage'));
+
+const Home = lazy(() => import('../pages/Home')); 
 
 export const routes = [
     {
