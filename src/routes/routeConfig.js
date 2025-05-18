@@ -14,8 +14,7 @@ export const routes = [
                 element: <Home />,
                 handle: {
                     meta: {
-                        title: 'Home',
-                        requiresAuth: false,
+                        title: 'Welcome to UIKIT',
                     },
                 },
             },

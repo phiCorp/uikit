@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Space Grotesk', sans-serif;
+  user-select: none;
 }
 
 .hero-section {
@@ -53,6 +54,7 @@ body {
 
 .feature-title {
   margin-bottom: 12px;
+  font-weight: bolder;
 }
 
 .footer-text{

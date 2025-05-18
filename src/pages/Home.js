@@ -24,7 +24,7 @@ const Home = () => {
                     </div>
                 </section>
                 <div className="text-center mt-5 footer-text">
-                    <small>From PHICORP &copy; {new Date().getFullYear()}</small>
+                    From PHICORP &copy; {new Date().getFullYear()}
                 </div>
             </div>
         </>
