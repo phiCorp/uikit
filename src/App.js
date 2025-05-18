@@ -1,12 +1,16 @@
 import { BrowserRouter } from 'react-router-dom';
 import AppRoutes from './routes/AppRoutes';
-import './libs/css/neo.all.min.css';
+import './assets/libs/css/neo.all.min.css';
+import './assets/css/App.css'
+import { ThemeProvider } from './context/ThemeContext';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </ThemeProvider>
   );
 };
 
