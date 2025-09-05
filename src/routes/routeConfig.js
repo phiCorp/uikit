@@ -2,7 +2,7 @@ import { lazy } from 'react';
 import MainLayout from '../layouts/MainLayout';
 
 
-const Home = lazy(() => import('../pages/Home')); 
+const Home = lazy(() => import('../pages/Home'));
 
 export const routes = [
     {
@@ -12,11 +12,12 @@ export const routes = [
             {
                 path: '',
                 element: <Home />,
-                handle: {
-                    meta: {
-                        title: 'Welcome to UIKIT',
-                    },
-                },
+                handle: { meta: { title: 'Welcome to UIKIT' } },
+            },
+            {
+                path: '*',
+                element: <>not found</>,
+                handle: { meta: { title: 'Page Not Found' } },
             },
         ],
     },
