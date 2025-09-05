@@ -1,7 +1,7 @@
 import { Outlet, useLocation, matchPath } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { routes } from '../routes/routeConfig';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Header from './Header';
 import SideBar from './SideBar';
 
@@ -20,6 +20,7 @@ function findTitleByLocation(location) {
 const MainLayout = () => {
     const location = useLocation();
     const title = findTitleByLocation(location);
+    const [sidebarOpen, setSidebarOpen] = useState(false);
 
     const mainAppRef = useRef(null);
     useEffect(() => {
@@ -37,11 +38,13 @@ const MainLayout = () => {
             <div id='mainApp' className='mainApp' ref={mainAppRef}>
                 <div className='container containerApp'>
                     <div>
-                        <SideBar />
+                        <SideBar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
                     </div>
                     <div className='mainContent'>
-                        <Header />
-                        <Outlet />
+                        <Header onOpenSidebar={() => setSidebarOpen(!sidebarOpen)} />
+                        <div className='contentArea'>
+                            <Outlet />
+                        </div>
                     </div>
                 </div>
             </div>

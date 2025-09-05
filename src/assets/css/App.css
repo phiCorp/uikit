@@ -39,3 +39,27 @@ body {
   padding: 12px 16px;
   border-radius: 10px;
 }
+
+.contentArea {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: var(--neo-color-alert);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--neo-color-border) var(--neo-color-background);
+}
+
+.contentArea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.contentArea::-webkit-scrollbar-thumb {
+  background-color: var(--neo-color-border);
+  border-radius: 10px;
+}
+
+.contentArea::-webkit-scrollbar-track {
+  background-color: var(--neo-color-background);
+}
