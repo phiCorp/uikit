@@ -1,0 +1,35 @@
+/* Overlay for sidebar on small screens */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  z-index: 1000;
+  display: none;
+}
+
+/* Show overlay when active */
+.sidebar-overlay.active {
+  display: block;
+}
+
+/* Responsive sidebar */
+@media (max-width: 768px) {
+  .sideBarApp {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 1100;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  .sideBarApp.open {
+    transform: translateX(0);
+  }
+  .containerApp {
+    flex-direction: column;
+  }
+}
